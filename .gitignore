@@ -1,0 +1,69 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Exclude terraform plan files
+*.tfplan
+
+# Terraform logs
+.terraformrc
+.terraform.d/
+
+# AWS Lambda
+node_modules/
+*.zip
+*.log
+
+# Python Lambda Functions
+__pycache__/
+*.py[cod]
+
+# Exclude deployment packages
+package-lock.json
+.yarn-integrity
+.pnpm-debug.log
+yarn.lock
+.DS_Store
+
+# AWS Lambda (Python)
+*.egg-info/
+.env
+.venv/
+Pipfile
+Pipfile.lock
+
+# MKS
+*.mks/
+.idea/
+.vscode/
+*.bak
+*.swp
+*.swo
+
+# General backup and system files
+*.bak
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# OS generated files
+.DS_Store
+*.DS_Store
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+.env
+venv/
